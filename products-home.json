@@ -1,0 +1,164 @@
+[
+{
+"name": "Roborock Qrevo S",
+"category": "home",
+"averagePrice": 699,
+"key": "roborockqrevos"
+},
+{
+"name": "Shark AI Ultra Robot Vacuum",
+"category": "home",
+"averagePrice": 499,
+"key": "sharkaiultra"
+},
+{
+"name": "iRobot Roomba Combo Essential",
+"category": "home",
+"averagePrice": 299,
+"key": "roombacomboessential"
+},
+{
+"name": "Eufy X10 Pro Omni",
+"category": "home",
+"averagePrice": 799,
+"key": "eufyx10proomni"
+},
+{
+"name": "BISSELL Little Green Cleaner",
+"category": "home",
+"averagePrice": 129,
+"key": "bisselllittlegreen"
+},
+{
+"name": "Shark Navigator Lift-Away",
+"category": "home",
+"averagePrice": 199,
+"key": "sharknavigator"
+},
+{
+"name": "Dyson V15 Detect",
+"category": "home",
+"averagePrice": 749,
+"key": "dysonv15detect"
+},
+{
+"name": "LEVOIT Core 300 Air Purifier",
+"category": "home",
+"averagePrice": 99,
+"key": "levoitcore300"
+},
+{
+"name": "Coway Airmega 250",
+"category": "home",
+"averagePrice": 299,
+"key": "cowayairmega250"
+},
+{
+"name": "Blueair Blue Pure 211i Max",
+"category": "home",
+"averagePrice": 349,
+"key": "bluepure211imax"
+}
+{
+"name": "Roborock Qrevo Curv",
+"category": "robot vacuum",
+"averagePrice": 1599,
+"key": "B0DX1DQKMD"
+},
+{
+"name": "Roborock S8 MaxV Ultra",
+"category": "robot vacuum",
+"averagePrice": 1799,
+"key": "B0D9QPKX2K"
+},
+{
+"name": "iRobot Roomba Combo 10 Max",
+"category": "robot vacuum",
+"averagePrice": 1399,
+"key": "B0D9ZRH61T"
+},
+{
+"name": "DeLonghi La Specialista Arte Evo",
+"category": "espresso machine",
+"averagePrice": 699,
+"key": "B0CCZQCNLJ"
+},
+{
+"name": "Ninja Luxe Cafe Premier Series",
+"category": "espresso machine",
+"averagePrice": 499,
+"key": "B0F452YBW1"
+},
+{
+"name": "Vari Electric Standing Desk",
+"category": "office furniture",
+"averagePrice": 799,
+"key": "B0CT94PMSR"
+},
+{
+"name": "Steelcase Leap Chair",
+"category": "office furniture",
+"averagePrice": 1299,
+"key": "B006H1QYBA"
+},
+{
+"name": "Levoit Core 600S Air Purifier",
+"category": "air purifier",
+"averagePrice": 299,
+"key": "B09BJMY8HL"
+},
+{
+"name": "Coway Airmega 400",
+"category": "air purifier",
+"averagePrice": 749,
+"key": "B01C9RIACG"
+},
+{
+"name": "Ring Battery Doorbell Plus",
+"category": "smart home",
+"averagePrice": 149,
+"key": "B09WZBPX7K"
+},
+{
+"name": "Arlo Pro 5S Security Camera",
+"category": "smart home",
+"averagePrice": 249,
+"key": "B0DDRT2T87"
+},
+{
+"name": "Traeger Pro 34 Pellet Grill",
+"category": "outdoor cooking",
+"averagePrice": 699,
+"key": "B07GL7PNPQ"
+},
+{
+"name": "Blackstone 36 Inch Griddle",
+"category": "outdoor cooking",
+"averagePrice": 499,
+"key": "B0CWPMQP1R"
+},
+{
+"name": "Ooni Karu 16 Pizza Oven",
+"category": "outdoor cooking",
+"averagePrice": 799,
+"key": "B085LGV57D"
+},
+{
+"name": "Bowflex SelectTech 552 Adjustable Dumbbells",
+"category": "fitness",
+"averagePrice": 429,
+"key": "B0FRNG2N5H"
+},
+{
+"name": "WalkingPad C2 Folding Treadmill",
+"category": "fitness",
+"averagePrice": 499,
+"key": "B0F295LBKQ"
+},
+{
+"name": "Ninja Foodi 10-in-1 Air Fry Oven",
+"category": "kitchen appliance",
+"averagePrice": 299,
+"key": "B08BXXQ37X"
+}
+]

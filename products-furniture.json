@@ -1,0 +1,32 @@
+[
+{
+"name": "Uplift V2 Standing Desk",
+"category": "furniture",
+"averagePrice": 699,
+"key": "upliftv2"
+},
+{
+"name": "FLEXISPOT E7 Standing Desk",
+"category": "furniture",
+"averagePrice": 499,
+"key": "flexispote7"
+},
+{
+"name": "SIHOO Doro C300 Office Chair",
+"category": "furniture",
+"averagePrice": 299,
+"key": "sihoodoro300"
+},
+{
+"name": "Herman Miller Aeron Chair",
+"category": "furniture",
+"averagePrice": 1495,
+"key": "hermanmilleraeron"
+},
+{
+"name": "Branch Ergonomic Chair",
+"category": "furniture",
+"averagePrice": 359,
+"key": "branchergonomic"
+}    
+]

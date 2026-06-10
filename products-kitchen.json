@@ -1,0 +1,128 @@
+[
+   {
+"name": "Ninja AF101 Air Fryer",
+"category": "kitchen",
+"averagePrice": 99,
+"key": "ninjaaf101"
+},
+{
+"name": "COSORI Pro LE Air Fryer",
+"category": "kitchen",
+"averagePrice": 119,
+"key": "cosoriprole"
+},
+{
+"name": "Instant Pot Duo 7-in-1",
+"category": "kitchen",
+"averagePrice": 99,
+"key": "instantpotduo"
+},
+{
+"name": "Ninja Foodi Dual Zone Air Fryer",
+"category": "kitchen",
+"averagePrice": 199,
+"key": "ninjafoodidualzone"
+},
+{
+"name": "Keurig K-Classic Coffee Maker",
+"category": "kitchen",
+"averagePrice": 129,
+"key": "keurigkclassic"
+},
+{
+"name": "Nespresso Vertuo Plus",
+"category": "kitchen",
+"averagePrice": 179,
+"key": "nespressovertuoplus"
+},
+{
+"name": "Breville Barista Express",
+"category": "kitchen",
+"averagePrice": 699,
+"key": "brevillebaristaexpress"
+},
+{
+"name": "Vitamix 5200 Blender",
+"category": "kitchen",
+"averagePrice": 449,
+"key": "vitamix5200"
+},
+{
+"name": "Ninja Professional Blender",
+"category": "kitchen",
+"averagePrice": 119,
+"key": "ninjaprofessionalblender"
+},
+{
+"name": "KitchenAid Artisan Stand Mixer",
+"category": "kitchen",
+"averagePrice": 449,
+"key": "kitchenaidartisan"
+},
+{
+"name": "Baratza Encore ESP Pro Coffee Grinder",
+"category": "kitchen",
+"averagePrice": 300,
+"key": "baratzaspr"
+},
+{
+"name": "HexClad Hybrid Fry Pan Set",
+"category": "cookware",
+"averagePrice": 149,
+"key": "hexcladhybrid"
+},
+{
+"name": "KitchenAid Go Cordless Vacuum",
+"category": "kitchen tools",
+"averagePrice": 90,
+"key": "B0FPGKV5KS"
+},
+{
+"name": "Vitamix Explorian E310 Blender",
+"category": "appliance",
+"averagePrice": 380,
+"key": "B0758JHZM3"
+},
+{
+"name": "All-Clad D3 Stainless Steel Cookware Set",
+"category": "cookware",
+"averagePrice": 799,
+"key": "B005H8KD3E"
+},
+{
+"name": "Wüsthof Classic 7-Piece Knife Set",
+"category": "cutlery",
+"averagePrice": 200,
+"key": "B003MU9F4W"
+},
+{
+"name": "Cuisinart Ice Cream Maker",
+"category": "appliance",
+"averagePrice": 150,
+"key": "B003KYSLMW"
+},
+{
+"name": "Breville Smart Oven Air Fryer Pro",
+"category": "kitchen",
+"averagePrice": 399.95,
+"key": "B01N5UPTZS"
+},
+{
+"name": "Breville Barista Express Impress Espresso Machine",
+"category": "kitchen",
+"averagePrice": 799.95,
+"key": "B0BBYNPV33"
+},
+{
+"name": "Breville Oracle Jet Espresso Machine",
+"category": "kitchen",
+"averagePrice": 2299.95,
+"key": "B0DYGDKQ85"
+},
+{
+"name": "Breville Sous Chef 16-Cup Food Processor",
+"category": "kitchen",
+"averagePrice": 499.95,
+"key": "B0CDM1FZBX"
+}
+]

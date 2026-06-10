@@ -1,0 +1,13 @@
+{
+  "commissionRates": {
+    "luxuryBeauty": 10,
+    "home": 8,
+    "furniture": 8,
+    "kitchen": 4.5,
+    "electronics": 3
+  },
+  "publishing": {
+    "maxBlogsPerDay": 1,
+    "maxPinsPerDay": 3
+  }
+}

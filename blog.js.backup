@@ -1,0 +1,97 @@
+
+import "dotenv/config";
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+import Anthropic from "@anthropic-ai/sdk";
+ 
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+ 
+// Load config and affiliate links
+const config = JSON.parse(fs.readFileSync(path.join(__dirname, "config.json"), "utf8"));
+const affiliateLinks = JSON.parse(fs.readFileSync(path.join(__dirname, "affiliate-links.json"), "utf8"));
+ 
+// Score products by commission
+const products = [
+  { name: "Air Fryer", category: "kitchen", averagePrice: 120, key: "airfryer" },
+  { name: "Walking Pad", category: "home", averagePrice: 250, key: "walkingpad" },
+];
+ 
+const scoredProducts = products.map((product) => {
+  const commissionRate = config.commissionRates[product.category] || 0;
+  const commissionScore = commissionRate * product.averagePrice;
+  return {
+    ...product,
+    commissionRate,
+    commissionScore,
+    affiliateLink: affiliateLinks[product.key] || null,
+  };
+});
+ 
+const highCommissionProducts = scoredProducts
+  .sort((a, b) => b.commissionScore - a.commissionScore)
+  .slice(0, 5);
+ 
+// Decide post type based on day
+const isAffiliatePost = new Date().getDay() % 2 === 0;
+ 
+// Build prompt
+const articlePrompt = `
+<context>
+  Goal: Create a 1500-word blog post.
+  Split: ${isAffiliatePost ? "70% Affiliate" : "30% Helpful"}.
+  Top Commission Products: ${JSON.stringify(highCommissionProducts, null, 2)}
+</context>
+ 
+<instructions>
+  1. SEO: Focus on high-intent keywords.
+  2. Structure: Use H2s, H3s, and bullet points for readability.
+  3. Tone: Helpful, authoritative, and natural.
+  4. ${
+    isAffiliatePost
+      ? "Recommendation: Integrate 3-5 top commission products naturally, using their affiliate links."
+      : "Content: Focus on solving a problem without direct selling."
+  }
+</instructions>
+ 
+<constraints>
+  - Minimum 1500 words.
+  - Do not use "In conclusion" or "delve".
+  - Where relevant, link to products using their affiliateLink value in markdown format.
+</constraints>
+`;
+ 
+// Call Claude API
+async function generateArticle(prompt) {
+  const client = new Anthropic();
+  let lastError;
+ 
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      console.log(`Attempt ${attempt} of 3...`);
+      const message = await client.messages.create({
+        model: "claude-opus-4-6",
+        max_tokens: 4096,
+        messages: [{ role: "user", content: prompt }],
+      });
+      return message.content[0].text;
+    } catch (err) {
+      console.warn(`Attempt ${attempt} failed: ${err.message}`);
+      lastError = err;
+      if (attempt < 3) {
+        console.log("Waiting 30 seconds before retrying...");
+        await new Promise((res) => setTimeout(res, 30000));
+      }
+    }
+  }
+ 
+  throw new Error(`Failed after 3 attempts: ${lastError.message}`);
+}
+ 
+// Main
+const article = await generateArticle(articlePrompt);
+ 
+const outputPath = path.join(__dirname, "blog-post.md");
+fs.writeFileSync(outputPath, article, "utf8");
+ 
+console.log(`✅ Blog post saved to ${outputPath}`);
