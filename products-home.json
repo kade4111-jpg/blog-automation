@@ -1,164 +1,460 @@
 [
-{
-"name": "Roborock Qrevo S",
-"category": "home",
-"averagePrice": 699,
-"key": "roborockqrevos"
-},
-{
-"name": "Shark AI Ultra Robot Vacuum",
-"category": "home",
-"averagePrice": 499,
-"key": "sharkaiultra"
-},
-{
-"name": "iRobot Roomba Combo Essential",
-"category": "home",
-"averagePrice": 299,
-"key": "roombacomboessential"
-},
-{
-"name": "Eufy X10 Pro Omni",
-"category": "home",
-"averagePrice": 799,
-"key": "eufyx10proomni"
-},
-{
-"name": "BISSELL Little Green Cleaner",
-"category": "home",
-"averagePrice": 129,
-"key": "bisselllittlegreen"
-},
-{
-"name": "Shark Navigator Lift-Away",
-"category": "home",
-"averagePrice": 199,
-"key": "sharknavigator"
-},
-{
-"name": "Dyson V15 Detect",
-"category": "home",
-"averagePrice": 749,
-"key": "dysonv15detect"
-},
-{
-"name": "LEVOIT Core 300 Air Purifier",
-"category": "home",
-"averagePrice": 99,
-"key": "levoitcore300"
-},
-{
-"name": "Coway Airmega 250",
-"category": "home",
-"averagePrice": 299,
-"key": "cowayairmega250"
-},
-{
-"name": "Blueair Blue Pure 211i Max",
-"category": "home",
-"averagePrice": 349,
-"key": "bluepure211imax"
-},
-{
-"name": "Roborock Qrevo Curv",
-"category": "robot vacuum",
-"averagePrice": 1599,
-"key": "B0DX1DQKMD"
-},
-{
-"name": "Roborock S8 MaxV Ultra",
-"category": "robot vacuum",
-"averagePrice": 1799,
-"key": "B0D9QPKX2K"
-},
-{
-"name": "iRobot Roomba Combo 10 Max",
-"category": "robot vacuum",
-"averagePrice": 1399,
-"key": "B0D9ZRH61T"
-},
-{
-"name": "DeLonghi La Specialista Arte Evo",
-"category": "espresso machine",
-"averagePrice": 699,
-"key": "B0CCZQCNLJ"
-},
-{
-"name": "Ninja Luxe Cafe Premier Series",
-"category": "espresso machine",
-"averagePrice": 499,
-"key": "B0F452YBW1"
-},
-{
-"name": "Vari Electric Standing Desk",
-"category": "office furniture",
-"averagePrice": 799,
-"key": "B0CT94PMSR"
-},
-{
-"name": "Steelcase Leap Chair",
-"category": "office furniture",
-"averagePrice": 1299,
-"key": "B006H1QYBA"
-},
-{
-"name": "Levoit Core 600S Air Purifier",
-"category": "air purifier",
-"averagePrice": 299,
-"key": "B09BJMY8HL"
-},
-{
-"name": "Coway Airmega 400",
-"category": "air purifier",
-"averagePrice": 749,
-"key": "B01C9RIACG"
-},
-{
-"name": "Ring Battery Doorbell Plus",
-"category": "smart home",
-"averagePrice": 149,
-"key": "B09WZBPX7K"
-},
-{
-"name": "Arlo Pro 5S Security Camera",
-"category": "smart home",
-"averagePrice": 249,
-"key": "B0DDRT2T87"
-},
-{
-"name": "Traeger Pro 34 Pellet Grill",
-"category": "outdoor cooking",
-"averagePrice": 699,
-"key": "B07GL7PNPQ"
-},
-{
-"name": "Blackstone 36 Inch Griddle",
-"category": "outdoor cooking",
-"averagePrice": 499,
-"key": "B0CWPMQP1R"
-},
-{
-"name": "Ooni Karu 16 Pizza Oven",
-"category": "outdoor cooking",
-"averagePrice": 799,
-"key": "B085LGV57D"
-},
-{
-"name": "Bowflex SelectTech 552 Adjustable Dumbbells",
-"category": "fitness",
-"averagePrice": 429,
-"key": "B0FRNG2N5H"
-},
-{
-"name": "WalkingPad C2 Folding Treadmill",
-"category": "fitness",
-"averagePrice": 499,
-"key": "B0F295LBKQ"
-},
-{
-"name": "Ninja Foodi 10-in-1 Air Fry Oven",
-"category": "kitchen appliance",
-"averagePrice": 299,
-"key": "B08BXXQ37X"
-}
+  {
+    "name": "Roborock Qrevo S",
+    "category": "home",
+    "averagePrice": 699,
+    "key": "roborockqrevos"
+  },
+  {
+    "name": "Shark AI Ultra Robot Vacuum",
+    "category": "home",
+    "averagePrice": 499,
+    "key": "sharkaiultra"
+  },
+  {
+    "name": "iRobot Roomba Combo Essential",
+    "category": "home",
+    "averagePrice": 299,
+    "key": "roombacomboessential"
+  },
+  {
+    "name": "Eufy X10 Pro Omni",
+    "category": "home",
+    "averagePrice": 799,
+    "key": "eufyx10proomni"
+  },
+  {
+    "name": "BISSELL Little Green Cleaner",
+    "category": "home",
+    "averagePrice": 129,
+    "key": "bisselllittlegreen"
+  },
+  {
+    "name": "Shark Navigator Lift-Away",
+    "category": "home",
+    "averagePrice": 199,
+    "key": "sharknavigator"
+  },
+  {
+    "name": "Dyson V15 Detect",
+    "category": "home",
+    "averagePrice": 749,
+    "key": "dysonv15detect"
+  },
+  {
+    "name": "LEVOIT Core 300 Air Purifier",
+    "category": "home",
+    "averagePrice": 99,
+    "key": "levoitcore300"
+  },
+  {
+    "name": "Coway Airmega 250",
+    "category": "home",
+    "averagePrice": 299,
+    "key": "cowayairmega250"
+  },
+  {
+    "name": "Blueair Blue Pure 211i Max",
+    "category": "home",
+    "averagePrice": 349,
+    "key": "bluepure211imax"
+  },
+  {
+    "name": "Roborock Qrevo Curv",
+    "category": "robot vacuum",
+    "averagePrice": 1599,
+    "key": "B0DX1DQKMD"
+  },
+  {
+    "name": "Roborock S8 MaxV Ultra",
+    "category": "robot vacuum",
+    "averagePrice": 1799,
+    "key": "B0D9QPKX2K"
+  },
+  {
+    "name": "iRobot Roomba Combo 10 Max",
+    "category": "robot vacuum",
+    "averagePrice": 1399,
+    "key": "B0D9ZRH61T"
+  },
+  {
+    "name": "DeLonghi La Specialista Arte Evo",
+    "category": "espresso machine",
+    "averagePrice": 699,
+    "key": "B0CCZQCNLJ"
+  },
+  {
+    "name": "Ninja Luxe Cafe Premier Series",
+    "category": "espresso machine",
+    "averagePrice": 499,
+    "key": "B0F452YBW1"
+  },
+  {
+    "name": "Vari Electric Standing Desk",
+    "category": "office furniture",
+    "averagePrice": 799,
+    "key": "B0CT94PMSR"
+  },
+  {
+    "name": "Steelcase Leap Chair",
+    "category": "office furniture",
+    "averagePrice": 1299,
+    "key": "B006H1QYBA"
+  },
+  {
+    "name": "Levoit Core 600S Air Purifier",
+    "category": "air purifier",
+    "averagePrice": 299,
+    "key": "B09BJMY8HL"
+  },
+  {
+    "name": "Coway Airmega 400",
+    "category": "air purifier",
+    "averagePrice": 749,
+    "key": "B01C9RIACG"
+  },
+  {
+    "name": "Ring Battery Doorbell Plus",
+    "category": "smart home",
+    "averagePrice": 149,
+    "key": "B09WZBPX7K"
+  },
+  {
+    "name": "Arlo Pro 5S Security Camera",
+    "category": "smart home",
+    "averagePrice": 249,
+    "key": "B0DDRT2T87"
+  },
+  {
+    "name": "Traeger Pro 34 Pellet Grill",
+    "category": "outdoor cooking",
+    "averagePrice": 699,
+    "key": "B07GL7PNPQ"
+  },
+  {
+    "name": "Blackstone 36 Inch Griddle",
+    "category": "outdoor cooking",
+    "averagePrice": 499,
+    "key": "B0CWPMQP1R"
+  },
+  {
+    "name": "Ooni Karu 16 Pizza Oven",
+    "category": "outdoor cooking",
+    "averagePrice": 799,
+    "key": "B085LGV57D"
+  },
+  {
+    "name": "Bowflex SelectTech 552 Adjustable Dumbbells",
+    "category": "fitness",
+    "averagePrice": 429,
+    "key": "B0FRNG2N5H"
+  },
+  {
+    "name": "WalkingPad C2 Folding Treadmill",
+    "category": "fitness",
+    "averagePrice": 499,
+    "key": "B0F295LBKQ"
+  },
+  {
+    "name": "Ninja Foodi 10-in-1 Air Fry Oven",
+    "category": "kitchen appliance",
+    "averagePrice": 299,
+    "key": "B08BXXQ37X"
+  },
+  {
+    "name": "Apple EarPods Headphones with USB-C",
+    "category": "electronics",
+    "averagePrice": 19,
+    "key": "B0DCH8VDXF"
+  },
+  {
+    "name": "Apple AirTag (2nd Generation)",
+    "category": "electronics",
+    "averagePrice": 24,
+    "key": "B0GJTFXNRX"
+  },
+  {
+    "name": "Apple AirPods 4 Wireless Earbuds",
+    "category": "electronics",
+    "averagePrice": 99,
+    "key": "B0DGHMNQ5Z"
+  },
+  {
+    "name": "Blink Outdoor 4 – Wireless smart security camera",
+    "category": "electronics",
+    "averagePrice": 79,
+    "key": "B0DHLSZXQD"
+  },
+  {
+    "name": "Blink Video Doorbell",
+    "category": "electronics",
+    "averagePrice": 49,
+    "key": "B0DGQVYW2K"
+  },
+  {
+    "name": "Amazon Echo Dot (newest model)",
+    "category": "electronics",
+    "averagePrice": 49,
+    "key": "B09B8V1LZ3"
+  },
+  {
+    "name": "Amazon Fire TV Stick 4K Select (newest model)",
+    "category": "electronics",
+    "averagePrice": 39,
+    "key": "B0C6W3D4RM"
+  },
+  {
+    "name": "Amazon Fire TV Stick HD (newest model)",
+    "category": "electronics",
+    "averagePrice": 34,
+    "key": "B0DJGDC3BD"
+  },
+  {
+    "name": "Amazon Fire TV Stick 4K Plus (newest model)",
+    "category": "electronics",
+    "averagePrice": 49,
+    "key": "B0F7Z4QZTT"
+  },
+  {
+    "name": "Amazon Fire TV Stick 4K Max (newest model)",
+    "category": "electronics",
+    "averagePrice": 59,
+    "key": "B0BP9SNVH9"
+  },
+  {
+    "name": "Apple iPad 11-inch: A16 chip, 11-inch Model, Liquid Retina Display, 128GB, Wi-Fi 6, 12MP Front/12MP Back Camera",
+    "category": "electronics",
+    "averagePrice": 349,
+    "key": "B0DZ75TN5F"
+  },
+  {
+    "name": "Amazon Echo Spot (newest model)",
+    "category": "electronics",
+    "averagePrice": 44,
+    "key": "B0BFC7WQ6R"
+  },
+  {
+    "name": "Roku Streaming Stick HD",
+    "category": "electronics",
+    "averagePrice": 28,
+    "key": "B0DXXYS4BJ"
+  },
+  {
+    "name": "Apple Watch Series 11 [GPS 46mm] Smartwatch with Jet Black Aluminum Case",
+    "category": "electronics",
+    "averagePrice": 429,
+    "key": "B0FQF5BZ8Z"
+  },
+  {
+    "name": "Amazon Echo Show 11 (newest model)",
+    "category": "electronics",
+    "averagePrice": 219,
+    "key": "B0DC91H3JK"
+  },
+  {
+    "name": "6 Ft Surge Protector Power Strip - 8 Widely Outlets with 4 USB Ports, 3 Side Outlet Extender ",
+    "category": "electronics",
+    "averagePrice": 11,
+    "key": "B09PDLBFKY"
+  },
+  {
+    "name": "Amazon Kindle Paperwhite 16GB (newest model)",
+    "category": "electronics",
+    "averagePrice": 159,
+    "key": "B0CFPJYX7P"
+  },
+  {
+    "name": "Oura Ring 5 Sizing Kit",
+    "category": "electronics",
+    "averagePrice": 10,
+    "key": "B0GRKC9NJP"
+  },
+  {
+    "name": "10Ft Extension Cord with Multiple Outlets",
+    "category": "electronics",
+    "averagePrice": 13,
+    "key": "B0DZ254SSR"
+  },
+  {
+    "name": "Roku TV Remote Control (Official Manufacturer Product)",
+    "category": "electronics",
+    "averagePrice": 9,
+    "key": "B0CQF6T2K1"
+  },
+  {
+    "name": "JBL Go 4 - Ultra-Portable, Waterproof and Dustproof Bluetooth Speaker",
+    "category": "electronics",
+    "averagePrice": 49,
+    "key": "B0CTNWBT1Z"
+  },
+  {
+    "name": "Replacement Remote Control Only for Roku TV (Pack of 2)",
+    "category": "electronics",
+    "averagePrice": 9,
+    "key": "B09Z6Q2MLC"
+  },
+  {
+    "name": "Apple AirPods Pro 3 Wireless Earbuds, Active Noise Cancellation, Live Translation, Heart Rate Sensing, Hearing Aid Feature, Bluetooth Headphones, Spatial Audio, High-Fidelity Sound, USB-C Charging",
+    "category": "electronics",
+    "averagePrice": 249,
+    "key": "B0FQFB8FMG"
+  },
+  {
+    "name": "TAGRY Bluetooth Headphones True Wireless Earbuds 60H Playback LED Power Display Earphones with Wireless Charging Case IPX5 Waterproof",
+    "category": "electronics",
+    "averagePrice": 35,
+    "key": "B09DT48V16"
+  },
+  {
+    "name": "Amazon Kindle 16 GB (newest model)",
+    "category": "electronics",
+    "averagePrice": 109,
+    "key": "B0CNVCQZG1"
+  },
+  {
+    "name": "Wall Charger, Surge Protector, QINLIANF 5 Outlet Extender with 4 USB Charging Ports, 3-Sided 1680J Power Strip Multi Plug Adapter",
+    "category": "electronics",
+    "averagePrice": 12,
+    "key": "B08R6S1M1K"
+  },
+  {
+    "name": "INSIGNIA 50 Class F50 Series LED 4K UHD Smart Fire TV, Voice Remote with Alexa, Stream Live TV Without Cable",
+    "category": "electronics",
+    "averagePrice": 299,
+    "key": "B0F19KLHG3"
+  },
+  {
+    "name": "Sony WH-CH520 Wireless Headphones Bluetooth On-Ear Headset with Microphone ",
+    "category": "electronics",
+    "averagePrice": 54,
+    "key": "B0BS1PRC4L"
+  },
+  {
+    "name": "Blink Battery Doorbell 2K+ (newest model) ",
+    "category": "electronics",
+    "averagePrice": 69,
+    "key": "B0CRTYZG5C"
+  },
+  {
+    "name": "Amazon Smart Plug, Works with Alexa",
+    "category": "electronics",
+    "averagePrice": 24,
+    "key": "B0DN45YMP6"
+  },
+  {
+    "name": "Amazon Kindle Paperwhite Signature Edition 32GB (newest model)",
+    "category": "electronics",
+    "averagePrice": 199,
+    "key": "B0CXGXT6W8"
+  },
+  {
+    "name": "Cable Zip Ties,400 Pack Black Assorted Sizes 12+8+6+4 Inch,Multi-Purpose Self-Locking Nylon Cable Cord Management",
+    "category": "electronics",
+    "averagePrice": 6,
+    "key": "B0CZPLV566"
+  },
+  {
+    "name": "Soundcore P30i by Anker Noise Cancelling Earbuds",
+    "category": "electronics",
+    "averagePrice": 39,
+    "key": "B0BL5SZ3VV"
+  },
+  {
+    "name": "JBL Vibe Beam 2 - True Wireless Noise Cancelling Earbuds",
+    "category": "electronics",
+    "averagePrice": 64,
+    "key": "B0C8PR4W22"
+  },
+  {
+    "name": "JBL Go 3 - Portable Mini Bluetooth Speaker",
+    "category": "electronics",
+    "averagePrice": 44,
+    "key": "B08KW1KR5H"
+  },
+  {
+    "name": "JLab Go Air Pop+ True Wireless Earbuds",
+    "category": "electronics",
+    "averagePrice": 21,
+    "key": "B0CXGXT6W8"
+  },
+  {
+    "name": "Beats Solo 4 - Wireless On-Ear Bluetooth Headphones",
+    "category": "electronics",
+    "averagePrice": 199,
+    "key": "B0CZPLV566"
+  },
+  {
+    "name": "Amazon Fire HD 10 Kids tablet (newest model) ages 3-7",
+    "category": "electronics",
+    "averagePrice": 189,
+    "key": "B0BL5SZ3VV"
+  },
+  {
+    "name": "Beats Studio Pro Premium Wireless Over-Ear Headphones- Up to 40-Hour Battery Life",
+    "category": "electronics",
+    "averagePrice": 199,
+    "key": "B0C8PR4W22"
+  },
+  {
+    "name": "Amazon Fire 7 Kids tablet, ages 3-7",
+    "category": "electronics",
+    "averagePrice": 109,
+    "key": "B0BLBLRLJB"
+  },
+  {
+    "name": "Alex Tech 10ft - 1/2 inch Cord Protector Wire Loom Tubing Cable Sleeve Split Sleeving For USB Cable Power Cord Audio Video Cable",
+    "category": "electronics",
+    "averagePrice": 8,
+    "key": "B07FW3GTXB"
+  },
+  {
+    "name": "Amazon Echo Dot Max (newest model)",
+    "category": "electronics",
+    "averagePrice": 99,
+    "key": "B0D6SX8VLQ"
+  },
+  {
+    "name": "FUJIFILM Instax Mini Instant Film Twin Pack (White)",
+    "category": "electronics",
+    "averagePrice": 17,
+    "key": "B00EB4ADQW"
+  },
+  {
+    "name": "Portable Bluetooth Speaker Beach Essentials",
+    "category": "electronics",
+    "averagePrice": 29,
+    "key": "B0CX1FRR27"
+  },
+  {
+    "name": "Anker Soundcore 2 Portable Bluetooth Speaker with Stereo Sound",
+    "category": "electronics",
+    "averagePrice": 44,
+    "key": "B01MTB55WH"
+  },
+  {
+    "name": "6Ft Power Strip Surge Protector",
+    "category": "electronics",
+    "averagePrice": 12,
+    "key": "B08MTBCXWX"
+  },
+  {
+    "name": "Pipishell Full Motion TV Wall Mount for Echo Show 21/15 and 13-43 Inch Flat Curved Screen TVs",
+    "category": "electronics",
+    "averagePrice": 21,
+    "key": "B07SHFPD8S"
+  },
+  {
+    "name": "Soundcore by Anker Q20i Hybrid Active Noise Cancelling Headphones",
+    "category": "electronics",
+    "averagePrice": 69,
+    "key": "B0C3HCD34R"
+  },
+  {
+    "name": "PocBuds Bluetooth Headphones Wireless Earbuds 80hrs Playtime Wireless Charging Case Digital Display Sports Ear Buds ",
+    "category": "electronics",
+    "averagePrice": 39,
+    "key": "B0C3W4MNN1"
+  }
+  
+
 ]

@@ -1,13 +1,18 @@
+# environment variables (VERY IMPORTANT)
 .env
+
+# dependencies
 node_modules/
+
+# git folder (should never be included anyway)
 .git/
+
+# Windows / system files
 .OneDrive
 ~*
 *.tmp
 
-
-
-159174236769311049
- 
- .env
-.env
+# optional safety files
+*.log
+pipeline-log.json
+canva-exports.json
